@@ -11,14 +11,15 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
-    @livewireStyles
+    <livewire:styles />
 </head>
 
 <body class="antialiased">
     <h1>Livewire Ticket System</h1>
-    @livewire('counter')
+    <livewire:comments />
 
-    @livewireScripts
+
+    <livewire:scripts />
 </body>
 
 </html>
